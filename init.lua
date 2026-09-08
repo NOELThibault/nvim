@@ -35,3 +35,12 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+
+vim.keymap.set( "n", "C-s", "<cmd>w<cr>", { desc = "Save" } )
+vim.keymap.set( "n", "<leader>h", "<cmd>vsp<cr>", { desc = "Split view vertically" } )
+vim.keymap.set( "n", "<leader>l", "<cmd>vsp<cr>", { desc = "Split view vertically" } )
+vim.keymap.set( "n", "<leader>k", "<cmd>sp<cr>", { desc = "Split view horizontally" } )
+vim.keymap.set( "n", "<leader>j", "<cmd>sp<cr>", { desc = "Split view horizontally" } )
