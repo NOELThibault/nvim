@@ -1,9 +1,17 @@
-**This repo is supposed to be used as config by NvChad users!**
+**This repo is a fork of the NvChad starter config for NeoVim**
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+This config is for my personnal use but feel free to do whatever you want with it.
+
+It doesn't change that much for now, but will grow alongside my needs.
+
+# Changes
+
+- Ctrl S keyboard shortcut for saving
+- leader h, j, k, l for window view splitting
+- Set theme and tab length
 
 # Credits
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+NvChad starter https://github.com/NvChad/NvChad
+
+Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
