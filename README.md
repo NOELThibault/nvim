@@ -12,6 +12,6 @@ It doesn't change that much for now, but will grow alongside my needs.
 
 # Credits
 
-NvChad starter https://github.com/NvChad/NvChad
+NvChad starter https://github.com/NvChad/starter
 
 Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
